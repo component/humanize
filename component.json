@@ -1,0 +1,12 @@
+{
+  "name": "humanize",
+  "repo": "component/humanize",
+  "description": "Humanize a string",
+  "version": "0.0.1",
+  "keywords": ["humanize", "string", "utility"],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
