@@ -1,8 +1,9 @@
 
 module.exports = function(str){
-  str = removeExtension(str);
-  str = str[0].toUpperCase() + str.slice(1);
-  return str.replace(/[\W_]+/g, ' ');
+  var s = removeExtension(str);
+  if ('' == s) return str;
+  s = s[0].toUpperCase() + s.slice(1);
+  return s.replace(/[\W_]+/g, ' ');
 };
 
 function removeExtension(str) {

@@ -11,4 +11,8 @@ describe('humanize(str)', function(){
     humanize('maru_the_cat.png').should.equal('Maru the cat');
     humanize('maru_the.cat.png').should.equal('Maru the cat');
   })
+
+  it('should not tamper with dotfiles', function(){
+    humanize('.DS_Store').should.equal('.DS_Store');
+  })
 })
