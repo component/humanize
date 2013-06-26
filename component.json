@@ -2,7 +2,7 @@
   "name": "humanize",
   "repo": "component/humanize",
   "description": "Humanize a string",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["humanize", "string", "utility"],
   "dependencies": {},
   "development": {},
